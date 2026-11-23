@@ -1,0 +1,14 @@
+runs 20000  wall 16.223s  orders 234378
+faults map[connect_fail:21963 duplicate:17775 lost_response:30713 slow:17395]
+policy            sessions      paid   refused
+honest              367897    185695         0
+overspend            47685         0     27262
+wrong_merchant       47763         0     27312
+replay               48271     24365     27678
+after_revoke         47897         0     27382
+after_expiry         47752         0     27115
+forge                48277         0     48277
+inflate              48113         0     43445
+over_budget          48181         0     48181
+double_complete      48164     24318         0
+invariant violations: 0 runs
