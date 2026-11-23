@@ -1,0 +1,25 @@
+{
+  "interactive": {
+    "type": "order_details",
+    "body": {"text": "Your order from Ravi Stores"},
+    "action": {
+      "name": "review_and_pay",
+      "parameters": {
+        "reference_id": "ORD-1001",
+        "type": "physical-goods",
+        "currency": "INR",
+        "total_amount": {"value": 21000, "offset": 100},
+        "order": {
+          "status": "pending",
+          "items": [
+            {"retailer_id": "1234567", "name": "Bread", "amount": {"value": 10000, "offset": 100}, "quantity": 2}
+          ],
+          "subtotal": {"value": 20000, "offset": 100},
+          "tax": {"value": 1000, "offset": 100},
+          "shipping": {"value": 1000, "offset": 100},
+          "discount": {"value": 1000, "offset": 100}
+        }
+      }
+    }
+  }
+}

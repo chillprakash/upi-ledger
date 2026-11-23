@@ -1,0 +1,43 @@
+{
+  "config": {
+    "clients": 32,
+    "duration": "30s",
+    "fault_rate": 0.1,
+    "store": "postgres"
+  },
+  "requests": 148942,
+  "duplicate_requests": 29908,
+  "http_status": {
+    "200": 139133,
+    "503": 9809
+  },
+  "requests_per_second": 4964.733333333334,
+  "latency_ms": {
+    "max": 42.885,
+    "p50": 6.651,
+    "p95": 14.43,
+    "p99": 20.89
+  },
+  "check": {
+    "payments": 109225,
+    "by_state": {
+      "failed": 11128,
+      "success": 98097
+    },
+    "switch_transactions": 106563,
+    "settlement_files": 2,
+    "settlement_lines": 98097,
+    "recon_breaks": {},
+    "faults_injected": {
+      "connect_fail": 11408,
+      "duplicate": 9218,
+      "lost_response": 16256,
+      "slow": 9054
+    },
+    "recon_corrections": {
+      "failed-\u003esuccess": 178
+    },
+    "status_checks": 17222,
+    "violations": null
+  }
+}

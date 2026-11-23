@@ -1,0 +1,4 @@
+.pgdata/
+/bin/
+*.test
+CLAUDE.md

@@ -1,0 +1,11 @@
+runs 100000  payments 4201288  wall 59.511s  simulated 1284067h0m0s
+faults injected   map[connect_fail:788388 duplicate:629710 lost_response:1104801 slow:631017]
+app final states  map[failed:2044450 reversed:216122 success:1940716]
+switch statuses   map[PAY:FAILED:1853496 PAY:REVERSED:225105 PAY:SUCCESS:2024005 REFUND:FAILED:38642 REFUND:REVERSED:20256 REFUND:SUCCESS:143289]
+duplicate submits 879473  key reuse refused 156074  status checks 1122794
+flagged by Annexure C 53859  corrected by reconciliation map[awaiting_settlement->failed:83424 awaiting_settlement->reversed:4534 awaiting_settlement->success:41523 failed->reversed:3717 failed->success:33798]
+app crashes 166166  recovered mid-flight 166166
+bank outages 15004 runs (108715351 calls refused)  refunds ok 303326, refused 184687
+settlement files 211467 (2167294 lines)  RBI compensation Rs 2776700 to 27767 payers
+UPI LITE payments 908820  Reserve Pay debits 92272 (declined 67739)  chat orders 490127 (extra taps 490466)
+invariant violations: 0 runs
